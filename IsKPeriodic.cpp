@@ -25,7 +25,7 @@ bool IsKPeriodic(const string& txt, int K)
     }
 
 
-    for(int i = 0; i < size;i += K)
+    for(int i = K; i < size;i += K)
     {
         int h = i; 
         for(int l = 0;l < K;l++)
